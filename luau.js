@@ -54,8 +54,8 @@ function Luau(opts) {
 	// Removes *all* loaded scripts from Redis script cache
 	//
 	this.flush = () => {
-		commandMap = {};
 		client.script("flush");
+		commandMap = {};
 		return Promise.resolve();
 	};
 

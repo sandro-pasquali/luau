@@ -1,6 +1,6 @@
 {
   "name": "luau",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simplifies the loading and calling of Lua scripts in Redis",
   "main": "luau.js",
   "scripts": {
